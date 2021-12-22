@@ -1,0 +1,6 @@
+customhost = "mariadb.chnbkrbggsyj.us-east-1.rds.amazonaws.com"
+customuser = "admin"
+custompass = "ProjectCC"
+customdb = "product"
+custombucket = "addproduct"
+customregion = "us-east-1"

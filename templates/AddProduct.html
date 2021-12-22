@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Product Information</title>
+</head>
+<center>
+	<font color="black" size="4" style="font-family: avenir">
+
+		<h1 style="color: DodgerBlue">Smartphone Database</h1>
+
+		<body bgcolor="lightgrey">
+
+			<form action="/addproduct" autocomplete="on" method = "POST" enctype="multipart/form-data">
+
+				<button type="submit" formaction="/getproduct" style="background: grey; height: 45px; width: 200px; color:white; font:oblique;">GET PRODUCT INFORMATION</button><br><br>
+
+		  		ID:<br> <input style="height:25px;font-size:14pt; color:grey;" type="number" name="id" autofocus size="40"><br><br>
+
+		  		Modele:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="modele" ><br><br>
+
+		  		Processeur:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="processeur"><br><br>
+
+		  		Ram:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="ram"><br><br>
+
+		  		Memoire:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="memoire"><br><br>
+				
+				Batterie:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="batterie"><br><br>
+
+		  		Camera:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="camera"><br><br>
+
+		  		Photo: <input type=file name="photo" style="height:25px;font-size:14pt;color:grey;"> <br><br>
+
+		  		<button type="submit" style="background: grey; height: 45px; width: 200px; color: white; size: 5; font:oblique;">UPDATE DATABASE</button>
+
+			</form>
+		</body>
+
+	</font>
+</center>
+</html>
